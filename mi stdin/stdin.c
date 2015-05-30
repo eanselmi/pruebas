@@ -5,6 +5,7 @@
 #include <stdint.h>
 #include <string.h>
 
+
 void ejecutarScript(char *script,char *argumento);
 
 int main (void){
