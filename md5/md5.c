@@ -5,12 +5,10 @@
 						  //sudo apt-get update
 						  //sudo apt-get install libssl-dev --fix-missing
 
-//const char *string = "The quick brown fox jumped over the lazy dog's back";
-
 int main(int argc , char *argv[]){
   int i;
-  char leer[500];
-  memset(leer,'\0',500);
+  char leer[500000];
+  memset(leer,'\0',500000);
   FILE *archivo;
   unsigned char result[MD5_DIGEST_LENGTH];
 
