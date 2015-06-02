@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include </usr/src/linux-headers-3.13.0-45-generic/include/config/crypto/md5.h>
-#define MD5_DIGEST_LENGTH 16
+#include <openssl/md5.h>  //PARA USAR LAS FUNCIONES DE MD5 DE OPENSSL HAY QUE INSTALAR
+						  //sudo apt-get update
+						  //sudo apt-get install libssl-dev --fix-missing
+
+//const char *string = "The quick brown fox jumped over the lazy dog's back";
 
 int main(int argc , char *argv[]){
   int i;
