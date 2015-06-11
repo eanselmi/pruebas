@@ -7,7 +7,6 @@
 #include <unistd.h>
 
 int main (int argc, char**argv){
-	la puta madre
 	int count,bak0,bak1;
 	char *cadena="hola";
 	printf ("La cadena %s mide %d\n\n",cadena,strlen(cadena));
