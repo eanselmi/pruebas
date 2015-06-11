@@ -7,8 +7,9 @@
 #include <unistd.h>
 
 int main (int argc, char**argv){
+	lalala
 	int count,bak0,bak1;
-	char *cadena="hola";
+	char *cadena="Hola";
 	printf ("La cadena %s mide %d\n\n",cadena,strlen(cadena));
 	int fd[2];
 	int md[2];
